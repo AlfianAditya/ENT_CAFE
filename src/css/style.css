@@ -1,0 +1,262 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+
+.header {
+    height: 65px;
+    align-items: center;
+    padding: 0 45px 0 45px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background: #5C3D2E;
+    border: 1px solid #000000;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    
+}
+
+.header .logo {
+    
+    
+}
+
+.header .logo h1 {
+    font-size: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-decoration:none;
+}
+
+.header nav {
+
+}
+
+.header ul {
+    display: flex;
+    
+    padding: 15px;   
+}
+
+.header ul li{
+    padding: 0 20px 0px 0px; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.header ul li .hom{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.header ul li .abot{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.header ul li .men{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.header ul li .con{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.search input{
+    width: 168px;
+    height: 20px;
+    left: 1232px;
+    top: 22px;
+    background: #F9F6F2;
+    border-radius: 8px;
+}
+
+.header ul li a:hover {
+    font-weight: bold;
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+p {
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+.panel {
+    background: url(../images/painel.jpg) center center no-repeat;
+    /* height: 600px; */
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 65px;
+
+}
+
+.panel h2 {
+    color: white;
+    margin:0;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    transform: translateY(300%);
+}
+
+.luwak {
+    padding: 100px;
+    text-align: center;
+    clear: both;
+}
+
+.luwak img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.luwak h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.luwak p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+    
+}
+
+.prodak{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* background-color:aquamarine; */
+    height: 100%;
+    text-align: center;
+    clear: both;
+    
+}
+.prodak .kotak {
+    height: 430px;
+    padding: 3%;
+    background-color: #5C3D2E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+
+}
+
+.kartu{
+    width: 263px;
+    border-radius: 15px;
+    height: 350px;
+    background-color: white;
+}
+.kartu img {
+    width: 100%;
+    height: 100%;
+}
+
+.prodak h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.prodak p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+
+.futers hr {
+    border: solid 1px black;
+}
+
+.futeet {
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+.futeet h5{
+    color:#5C3D2E;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.futeet p {
+    color: #5C3D2E;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.futeet ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.futeet ul li {
+    
+    padding: 15px;
+}
+
+.futeet ul li a {
+    color:#5C3D2E;
+}
+
+.futeet ul li a:hover {
+    font-weight: bold;
+}
+
+
+.futeet .redes-sociais .facebook,
+.futeet .redes-sociais .instagram {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.futeet .redes-sociais {
+    float: right;
+    clear: both;
+}
+
+.futeet .conteudo-de-baixo {
+    margin-top: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
